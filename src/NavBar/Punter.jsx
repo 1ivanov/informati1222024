@@ -14,6 +14,10 @@ const links=[
     href:"/maestros",
   },
   {
+    name:"Nuestas Casas",
+    href:"/casas",
+  },
+  {
     name:"Registro",
     href:"/registro",
   },
