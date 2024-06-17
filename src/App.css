@@ -1,31 +1,122 @@
-.App {
+#root{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-auto-rows: auto;
+  row-gap: 1em;
+}
+.navegador{
+  background-image: url("imgs/i1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-auto-rows: auto;
+  row-gap: 2em;
+}
+.titulo{
   text-align: center;
+  font-size: 2em;
+  color: whitesmoke;
+  text-shadow: 2px 2px #000;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.texto{
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.link{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  column-gap: 2em;
+}
+.link>*{
+  text-decoration: none;
+  background-color: red;
   color: white;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 1em;
+}
+.link>*:hover{
+  background-color: yellowgreen;
+}
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-auto-rows: auto;
+  row-gap: 1em;
+}
+.contHome{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-auto-rows: auto;
+  row-gap: 1em;
+}
+.cajaH1{
+  border-radius: 10px;
+  margin: 0 15rem;
+}
+.c1{
+  background-image: url("imgs/f1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.c2{
+  background-image: url("imgs/f2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.c3{
+  background-image: url("imgs/f3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.c4{
+  background-image: url("imgs/f4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.c5{
+  background-image: url("imgs/f5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.curso{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
-.heart {
-  color: #ff0000;
+button{
+  width: 100%;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  border: none;
 }
-
-.small {
-  font-size: 0.75rem;
+.foto{
+  width: 15em;
+  border-radius: 10px;
+}
+.cursoCont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  border-radius: 10px;
+  column-gap: 1em;
+}
+.curso{
+  margin: 2em 0;
 }
