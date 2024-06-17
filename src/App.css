@@ -199,3 +199,7 @@ input{
   font-size: 1em;
   border: none;
 }
+.pp{
+  color: white;
+  cursor: pointer;
+}

@@ -56,7 +56,7 @@ Además de las clases de instrumentos clásicos y contemporáneos, TE-ARTE es pi
                 6. Promover la apreciación de la música y las artes en la comunidad local e internacional.
                 </p>
             </div>
-            <p color="#000">27 años al servicio de la educacion</p>
+            <p className="pp">27 años al servicio de la educacion</p>
         </div>
     );
 }

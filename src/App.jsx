@@ -5,6 +5,7 @@ import Home1 from './screens/Home.jsx';
 import Cursos1 from './screens/Cursos.jsx';
 import Maestro from './screens/Maestros.jsx';
 import Casas1 from './screens/Casas.jsx';
+import Eventos1 from './screens/Eventos.jsx';
 import Registro1 from './componentes/Registro.jsx';
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/cursos" element={<Cursos1/>}/>
           <Route path="/maestros" element={<Maestro/>}/>
           <Route path="/casas" element={<Casas1/>}/>
+          <Route path="/eventos" element={<Eventos1/>}/>
           <Route path="/registro" element={<Registro1/>}/>
         </Routes>
         </div>

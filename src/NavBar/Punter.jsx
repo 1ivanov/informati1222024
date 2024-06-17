@@ -18,6 +18,10 @@ const links=[
     href:"/casas",
   },
   {
+    name:"Nuestos Eventos",
+    href:"/eventos",
+  },
+  {
     name:"Registro",
     href:"/registro",
   },
